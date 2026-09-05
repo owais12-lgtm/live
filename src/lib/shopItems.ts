@@ -37,7 +37,7 @@ export const allShopItems: ShopItem[] = [
   { name: "TryHackMe 6 month subscription", price: 13, img: "/prizes/tryHackMe.png", description: "get cracked at cybersec rlly quick here" },
 
   // ===== 15 HOURS =====
-  { name: "15 hours for me to eat a spoon of vegemite", price: 15, img: "/prizes/vegemite.jpg", description: "the ultimate challenge" },
+  { name: "eat a spoon of vegemite", price: 15, img: "/prizes/vegemite.jpg", description: "the ultimate challenge" },
   { name: "wake up archer in middle of night (and record it)", price: 15, img: "/prizes/archer_awakened.jpg", description: "wakey wakey archer" },
   { name: "ProtonMe 1 year subscription", price: 18, img: "/prizes/protonMe.jpg", description: "we all love privacy and stuff" },
   { name: "EPOMAKER TH99 PRO Keyboard", price: 15, img: "/prizes/creamy_keyboard.jpg", description: "my favorite keyboard by far." },
