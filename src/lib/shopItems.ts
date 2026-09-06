@@ -16,38 +16,62 @@ export const allShopItems: ShopItem[] = [
   { name: "2 hours for 5 pushups (stackable)", price: 2, img: "/prizes/pushups.jpg", description: "make the man suffer" },
   { name: "Random piece of paper from HQ", price: 2, img: "/prizes/paper.jpg", description: "who knows what it could be" },
   { name: "Hosting Credits", price: 2, img: "/prizes/hosting.png", description: "deploy your projects, 10$ grant" },
-{ name: "$35 Codédex Grant", price: 7, img: "/prizes/codedex_grant.png", description: "$35 toward a Codédex subscription to learn and practice coding" },
-
-
-  // LVL 3 CLEARANCE — 15 hours
-  // { name: "Casio Watch", price: 15, img: "/prizes/casio_image.jpg", description: "buy yourself a watch up to 100 dollars worth" },
-  { name: "ProtonMe 1 year subscription", price: 15, img: "/prizes/protonMe.jpg", description: "we all love privacy and stuff" },
-  { name: "wake up archer in middle of night (and record it)", price: 15, img: "/prizes/archer_awakened.jpg", description: "wakey wakey archer" },
-  { name: "ProtonMe 1 year subscription", price: 18, img: "/prizes/protonMe.jpg", description: "we all love privacy and stuff" },
-  { name: "EPOMAKER TH99 PRO Keyboard", price: 15, img: "/prizes/creamy_keyboard.jpg", description: "my favorite keyboard by far." },
-  { name: "Anker Nano Charger (100W) with USB-C Cable", price: 15, img: "/prizes/anker_image.png", description: "best charger ever" },
   { name: "One Key Keychain", price: 2, img: "/prizes/keychain_image.jpg", description: "CLICKY CLICKY CLICKY" },
+
+  // ===== 3 HOURS =====
+  { name: "Hot Plate", price: 3, img: "/prizes/hot_plate.jpg", description: "make ramen... or you know use it as a hot plate" },
+
+  // ===== 4 HOURS =====
+  { name: "$20 Domain Grant", price: 4, img: "/prizes/porkbun.png", description: "buying domains is p cool" },
+  { name: "PineCil Soldering Iron", price: 4, img: "/prizes/pinecil.jpg", description: "precision soldering for hardware projects" },
   { name: "Four Key Macropad", price: 4, img: "/prizes/macropad_image.jpg", description: "little macropad you can actually use" },
 
+  // ===== 5 HOURS =====
+  { name: "eat half a lemon", price: 5, img: "/prizes/lemon_eating.jpeg", description: "you grind, i suffer" },
+  { name: "Play Console Developer", price: 5, img: "/prizes/play_console.png", description: "publish android apps" },
+
+  // ===== 6 HOURS =====
+  { name: "$20 AI Grant", price: 6, img: "/prizes/claude_vs_gemini.png", description: "we all love ai" },
+  { name: "BLÅHAJ", price: 8, img: "/prizes/blahaj.jpg", description: "big big big" },
+
+  // ===== 7 HOURS ===== (NEW IN DOC 2)
+  { name: "$35 Codédex Grant", price: 7, img: "/prizes/codedex_grant.png", description: "$35 toward a Codédex subscription to learn and practice coding" }, // ADDED IN DOC 2
+
+  // ===== 10 HOURS =====
+  { name: "10 hours for me to eat the spiciest chip", price: 10, img: "/prizes/spicy_chip.jpg", description: "pain is temporary, glory is forever" },
+
+  // ===== 13 HOURS =====
+  { name: "TryHackMe 6 month subscription", price: 13, img: "/prizes/tryHackMe.png", description: "get cracked at cybersec rlly quick here" },
+
+  // ===== 15 HOURS =====
+  { name: "eat a spoon of vegemite", price: 15, img: "/prizes/vegemite.jpg", description: "ausr*lia" },
+  { name: "wake up archer in middle of night (and record it)", price: 15, img: "/prizes/archer_awakened.jpg", description: "wakey wakey archer" },
+  { name: "ProtonMe 1 year subscription", price: 15, img: "/prizes/protonMe.jpg", description: "we all love privacy and stuff" },
+  { name: "EPOMAKER TH99 PRO Keyboard", price: 15, img: "/prizes/creamy_keyboard.jpg", description: "my favorite keyboard by far." },
+  { name: "Anker Nano Charger (100W) with USB-C Cable", price: 15, img: "/prizes/anker_image.png", description: "best charger ever" },
+
+  // ===== 6 HOURS (DUPLICATE PRICE IN DOC 2 - KEPT FROM DOC 1) =====
+  { name: "$20 AI Grant", price: 6, img: "/prizes/claude_vs_gemini.png", description: "we all love ai" },
+
   // ===== 17 HOURS =====
-  { name: "YubiKey 5C NFC", price: 20, img: "/prizes/yubikey.jpg", description: "secure your shi" },
+  { name: "Apple Developer Program Grant", price: 17, img: "/prizes/apple_dev.png", description: "publish to the app store" },
 
   // ===== 20 HOURS =====
+  { name: "YubiKey 5C NFC", price: 20, img: "/prizes/yubikey.jpg", description: "secure your shi" },
   { name: "Keychron K3 QMK Wireless Mechanical Keyboard", price: 20, img: "/prizes/keychron_k3.jpg", description: "programmable mechanical keyboard" },
-  { name: "Apple Developer Program Grant", price: 17, img: "/prizes/apple_dev.png", description: "publish to the app store" },
 
   // ===== 25 HOURS =====
   { name: "144Hz Curved Monitor", price: 25, img: "/prizes/minotor_pic.avif", description: "$125 dollar monitor grant for your setup" },
   { name: "Kobo Clara BW", price: 25, img: "/prizes/kobo.jpg", description: "reading? whats that" },
 
-  // ===== 22 HOURS =====
+  // ===== 28 HOURS =====
   { name: "Creality Ender-3 V3 SE", price: 28, img: "/prizes/creality.jpg", description: "3d printer for rapid prototyping" },
 
   // ===== 30 HOURS =====
   { name: "Flipper Zero", price: 30, img: "/prizes/flipper_zero_img.webp", description: "hardware security hacking tool" },
   { name: "Bambu A1 Mini", price: 30, img: "/prizes/bambu_a1.jpg", description: "fast and reliable 3d printing" },
 
-  // ===== 33 HOURS =====
+  // ===== 35 HOURS =====
   { name: "Rode PodMic", price: 35, img: "/prizes/rode_podmic.jpg", description: "professional quality podcast microphone" },
 
   // ===== 40 HOURS =====
@@ -65,20 +89,17 @@ export const allShopItems: ShopItem[] = [
   // ===== 58 HOURS =====
   { name: "EPOMAKER TH99 PRO Keyboard", price: 58, img: "/prizes/creamy_keyboard.jpg", description: "my favorite keyboard by far." },
 
-  // ===== 65 HOURS =====
- 
-  { name: "Meta Glasses Gen 1", price: 80, img: "/prizes/metaGlasses.jpeg", description: "because meta glasses r cool" },
+  // ===== 70 HOURS =====
+  { name: "GoPro HERO12 Black", price: 70, img: "/prizes/gopro.jpg", description: "record your adventures?" },
 
   // ===== 75 HOURS =====
-
-  // ===== 81 HOURS =====
   { name: "11\" iPad Wi-Fi 128GB with Apple Pencil", price: 75, img: "/prizes/ipad_pencil.jpg", description: "artttttttttt" },
+
+  // ===== 80 HOURS =====
+  { name: "Meta Glasses Gen 1", price: 80, img: "/prizes/metaGlasses.jpeg", description: "because meta glasses r cool" },
 
   // ===== 83 HOURS =====
   { name: "Elgato Stream Deck MK.2", price: 83, img: "/prizes/elgato_streamdeck.jpg", description: "glorified macropad " },
-
-  // ===== 110 HOURS =====
-  { name: "GoPro HERO12 Black", price: 70, img: "/prizes/gopro.jpg", description: "record your adventures?" },
 
   // ===== 133 HOURS =====
   { name: "Sony WH-1000XM5 Wireless Noise Canceling Headphones (Black)", price: 133, img: "/prizes/headphones.png", description: "rlly nice headphones" },
@@ -93,3 +114,22 @@ export const allShopItems: ShopItem[] = [
 export function findShopItemByName(name: string): ShopItem | undefined {
   return allShopItems.find((item) => item.name === name);
 }
+
+// ===== CONSOLIDATION SUMMARY =====
+// This file includes ALL items from both Document 1 and Document 2
+//
+// ITEMS REMOVED IN DOC 2 (now re-added):
+// - eat half a lemon (price: 5)
+// - 10 hours for me to eat the spiciest chip (price: 10)
+// - Play Console Developer (price: 5)
+// - $20 AI Grant (price: 6)
+// - Hot Plate (price: 3)
+// - BLÅHAJ (price: 8)
+// - TryHackMe 6 month subscription (price: 13)
+// - eat a spoon of vegemite (price: 15)
+//
+// ADDED IN DOC 2:
+// + $35 Codédex Grant (price: 7)
+//
+// DUPLICATES REMOVED:
+// - ProtonMe 1 year subscription (price: 18 - kept the price 15 version)
