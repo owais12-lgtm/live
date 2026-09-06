@@ -34,7 +34,7 @@ export const allShopItems: ShopItem[] = [
 
   // ===== 6 HOURS =====
   { name: "BLÅHAJ", price: 8, img: "/prizes/blahaj.jpg", description: "big big big" },
-  { name: "BAOFENG UV-9R for 6 hours", price: 6, img: "/prizes/baofengUV9R.jpg", description: "Dual-band handheld radio — UHF/VHF for staying in touch (or just vibing on the airwaves)" },
+  { name: "BAOFENG UV-9R ", price: 6, img: "/prizes/baofengUV9R.jpg", description: "Dual-band handheld radio — UHF/VHF for staying in touch (or just vibing on the airwaves)" },
   // ===== 13 HOURS =====
   { name: "TryHackMe 6 month subscription", price: 13, img: "/prizes/tryHackMe.png", description: "get cracked at cybersec rlly quick here" },
 
@@ -104,7 +104,7 @@ export const allShopItems: ShopItem[] = [
   { name: "Gaming PC with a 4060", price: 200, img: "/prizes/gaming_pc_img.webp", description: "1.1k PC grant. some people like prebuilts, others don't. i wont bat an eye as long as its a PC." },
 
   // ===== 300 HOURS =====
-  { name: "300 hours for me to wear a maid dress", price: 300, img: "/prizes/maid_dress.jpg", description: "the ultimate flex" },
+  { name: " wear a maid dress", price: 300, img: "/prizes/maid_dress.jpg", description: "the ultimate flex" },
 ];
 
 export function findShopItemByName(name: string): ShopItem | undefined {
