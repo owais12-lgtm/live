@@ -17,7 +17,6 @@ export const allShopItems: ShopItem[] = [
   { name: "Random piece of paper from HQ", price: 2, img: "/prizes/paper.jpg", description: "who knows what it could be" },
   { name: "Hosting Credits", price: 2, img: "/prizes/hosting.png", description: "deploy your projects, 10$ grant" },
 
-
   { name: "$35 Codédex Grant", price: 7, img: "/prizes/codedex_grant.png", description: "$35 toward a Codédex subscription to learn and practice coding" },
 
   // ===== 4 HOURS =====
@@ -30,50 +29,6 @@ export const allShopItems: ShopItem[] = [
   { name: "Play Console Developer", price: 5, img: "/prizes/play_console.png", description: "publish android apps" },
   { name: "$20 AI Grant", price: 6, img: "/prizes/claude_vs_gemini.png", description: "we all love ai" },
 
-  // ===== 3 HOURS =====
-  { name: "Hot Plate", price: 3, img: "/prizes/hot_plate.jpg", description: "make ramen while you code" },
-
-  // ===== 6 HOURS =====
-  { name: "BLÅHAJ", price: 8, img: "/prizes/blahaj.jpg", description: "big big big" },
-
-  // ===== 13 HOURS =====
-  { name: "TryHackMe 6 month subscription", price: 13, img: "/prizes/tryHackMe.png", description: "get cracked at cybersec rlly quick here" },
-
-  // ===== 15 HOURS =====
-  { name: "eat a spoon of vegemite", price: 15, img: "/prizes/vegemite.jpg", description: "ausr*lia" },
-  // ===== 4 HOURS =====
-  { name: "$20 Domain Grant", price: 4, img: "/prizes/porkbun.png", description: "buying domains is p cool" },
-  { name: "PineCil Soldering Iron", price: 4, img: "/prizes/pinecil.jpg", description: "precision soldering for hardware projects" },
-
-  // ===== 5 HOURS =====
-  { name: "eat half a lemon", price: 5, img: "/prizes/lemon_eating.jpeg", description: "you grind, i suffer" },
-  { name: "10 hours for me to eat the spiciest chip", price: 10, img: "/prizes/spicy_chip.jpg", description: "pain is temporary, glory is forever" },
-  { name: "Play Console Developer", price: 5, img: "/prizes/play_console.png", description: "publish android apps" },
-  { name: "$20 AI Grant", price: 6, img: "/prizes/claude_vs_gemini.png", description: "we all love ai" },
-
-  { name: "$35 Codédex Grant", price: 7, img: "/prizes/codedex_grant.png", description: "$35 toward a Codédex subscription to learn and practice coding" },
-
-  // ===== 4 HOURS =====
-  { name: "$20 Domain Grant", price: 4, img: "/prizes/porkbun.png", description: "buying domains is p cool" },
-  { name: "PineCil Soldering Iron", price: 4, img: "/prizes/pinecil.jpg", description: "precision soldering for hardware projects" },
-
-  // ===== 5 HOURS =====
-  { name: "eat half a lemon", price: 5, img: "/prizes/lemon_eating.jpeg", description: "you grind, i suffer" },
-  { name: "10 hours for me to eat the spiciest chip", price: 10, img: "/prizes/spicy_chip.jpg", description: "pain is temporary, glory is forever" },
-  { name: "Play Console Developer", price: 5, img: "/prizes/play_console.png", description: "publish android apps" },
-  { name: "$20 AI Grant", price: 6, img: "/prizes/claude_vs_gemini.png", description: "we all love ai" },
-
-  // ===== 3 HOURS =====
-  { name: "Hot Plate", price: 3, img: "/prizes/hot_plate.jpg", description: "make ramen while you code" },
-
-  // ===== 6 HOURS =====
-  { name: "BLÅHAJ", price: 8, img: "/prizes/blahaj.jpg", description: "big big big" },
-
-  // ===== 13 HOURS =====
-  { name: "TryHackMe 6 month subscription", price: 13, img: "/prizes/tryHackMe.png", description: "get cracked at cybersec rlly quick here" },
-
-  // ===== 15 HOURS =====
-  { name: "eat a spoon of vegemite", price: 15, img: "/prizes/vegemite.jpg", description: "ausr*lia" },
   // ===== 3 HOURS =====
   { name: "Hot Plate", price: 3, img: "/prizes/hot_plate.jpg", description: "make ramen while you code" },
 
@@ -126,10 +81,9 @@ export const allShopItems: ShopItem[] = [
   { name: "Anycubic Kobra 3 Combo", price: 51, img: "/prizes/anycubic.jpg", description: "3d printer + enclosure bundle" },
 
   // ===== 58 HOURS =====
-  { name: "EPOMAKER TH99 PRO Keyboard", price: 58, img: "/prizes/creamy_keyboard.jpg", description: "my favorite keyboard by far." },
+  // EPOMAKER TH99 PRO Keyboard removed (duplicate at price 15)
 
   // ===== 65 HOURS =====
- 
   { name: "Meta Glasses Gen 1", price: 80, img: "/prizes/metaGlasses.jpeg", description: "because meta glasses r cool" },
 
   // ===== 75 HOURS =====
