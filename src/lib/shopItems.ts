@@ -13,7 +13,7 @@ export const allShopItems: ShopItem[] = [
   { name: "$5.00/hr Upgrade Grant", price: 1, img: "/prizes/grant_image.jpg", description: "lets say you want a slightly better laptop that costs 50 bucks more. you first would qualify for the laptop, n then you can use the upgrade grant to 'upgrade' ur prize further." },
 
   // ===== 2 HOURS =====
-  { name: "2 hours for 5 pushups (stackable)", price: 2, img: "/prizes/pushups.jpg", description: "physical grind for digital rewards" },
+  { name: "2 hours for 5 pushups (stackable)", price: 2, img: "/prizes/pushups.jpg", description: "make the man suffer" },
   { name: "Random piece of paper from HQ", price: 2, img: "/prizes/paper.jpg", description: "who knows what it could be" },
   { name: "Hosting Credits", price: 2, img: "/prizes/hosting.png", description: "deploy your projects, 10$ grant" },
 
@@ -37,16 +37,16 @@ export const allShopItems: ShopItem[] = [
   { name: "TryHackMe 6 month subscription", price: 13, img: "/prizes/tryHackMe.png", description: "get cracked at cybersec rlly quick here" },
 
   // ===== 15 HOURS =====
-  { name: "eat a spoon of vegemite", price: 15, img: "/prizes/vegemite.jpg", description: "the ultimate challenge" },
+  { name: "eat a spoon of vegemite", price: 15, img: "/prizes/vegemite.jpg", description: "ausr*lia" },
   { name: "wake up archer in middle of night (and record it)", price: 15, img: "/prizes/archer_awakened.jpg", description: "wakey wakey archer" },
   { name: "ProtonMe 1 year subscription", price: 18, img: "/prizes/protonMe.jpg", description: "we all love privacy and stuff" },
   { name: "EPOMAKER TH99 PRO Keyboard", price: 15, img: "/prizes/creamy_keyboard.jpg", description: "my favorite keyboard by far." },
   { name: "Anker Nano Charger (100W) with USB-C Cable", price: 15, img: "/prizes/anker_image.png", description: "best charger ever" },
-  { name: "One Key Keychain", price: 2, img: "/prizes/keychain_image.jpg", description: "it clicks" },
+  { name: "One Key Keychain", price: 2, img: "/prizes/keychain_image.jpg", description: "CLICKY CLICKY CLICKY" },
   { name: "Four Key Macropad", price: 4, img: "/prizes/macropad_image.jpg", description: "little macropad you can actually use" },
 
   // ===== 17 HOURS =====
-  { name: "YubiKey 5C NFC", price: 20, img: "/prizes/yubikey.jpg", description: "secure your projects" },
+  { name: "YubiKey 5C NFC", price: 20, img: "/prizes/yubikey.jpg", description: "secure your shi" },
 
   // ===== 20 HOURS =====
   { name: "Keychron K3 QMK Wireless Mechanical Keyboard", price: 20, img: "/prizes/keychron_k3.jpg", description: "programmable mechanical keyboard" },
@@ -54,7 +54,7 @@ export const allShopItems: ShopItem[] = [
 
   // ===== 25 HOURS =====
   { name: "144Hz Curved Monitor", price: 25, img: "/prizes/minotor_pic.avif", description: "$125 dollar monitor grant for your setup" },
-  { name: "Kobo Clara BW", price: 25, img: "/prizes/kobo.jpg", description: "read while you build" },
+  { name: "Kobo Clara BW", price: 25, img: "/prizes/kobo.jpg", description: "reading? whats that" },
 
   // ===== 22 HOURS =====
   { name: "Creality Ender-3 V3 SE", price: 28, img: "/prizes/creality.jpg", description: "3d printer for rapid prototyping" },
@@ -67,10 +67,10 @@ export const allShopItems: ShopItem[] = [
   { name: "Rode PodMic", price: 35, img: "/prizes/rode_podmic.jpg", description: "professional quality podcast microphone" },
 
   // ===== 40 HOURS =====
-  { name: "Kindle Paperwhite", price: 40, img: "/prizes/kindle.jpg", description: "portable knowledge" },
+  { name: "Kindle Paperwhite", price: 40, img: "/prizes/kindle.jpg", description: "reading? whats that" },
 
   // ===== 44 HOURS =====
-  { name: "Raspberry Pi 5", price: 44, img: "/prizes/rpi5.jpg", description: "embedded systems powerhouse" },
+  { name: "Raspberry Pi 5", price: 44, img: "/prizes/rpi5.jpg", description: "its a expensive and tiny computer" },
 
   // ===== 46 HOURS =====
   { name: "Thinkpad T14 (Gen 2)", price: 46, img: "/prizes/thinkpad_laptop_img.jpg", description: "decent laptop for the price: Gen 2 14 inch FHD Intel i5-1135G7 2.4GHz 16GB RAM 128GB" },
@@ -88,10 +88,10 @@ export const allShopItems: ShopItem[] = [
   // ===== 75 HOURS =====
 
   // ===== 81 HOURS =====
-  { name: "11\" iPad Wi-Fi 128GB with Apple Pencil", price: 75, img: "/prizes/ipad_pencil.jpg", description: "creative powerhouse in your hands" },
+  { name: "11\" iPad Wi-Fi 128GB with Apple Pencil", price: 75, img: "/prizes/ipad_pencil.jpg", description: "artttttttttt" },
 
   // ===== 83 HOURS =====
-  { name: "Elgato Stream Deck MK.2", price: 83, img: "/prizes/elgato_streamdeck.jpg", description: "control your streams with style" },
+  { name: "Elgato Stream Deck MK.2", price: 83, img: "/prizes/elgato_streamdeck.jpg", description: "glorified macropad " },
 
   // ===== 110 HOURS =====
   { name: "GoPro HERO12 Black", price: 70, img: "/prizes/gopro.jpg", description: "record your adventures?" },
