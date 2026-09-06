@@ -57,7 +57,7 @@ export const allShopItems: ShopItem[] = [
   { name: "Kobo Clara BW", price: 25, img: "/prizes/kobo.jpg", description: "read while you build" },
 
   // ===== 22 HOURS =====
-  { name: "Creality Ender-3 V3 SE", price: 24, img: "/prizes/creality.jpg", description: "3d printer for rapid prototyping" },
+  { name: "Creality Ender-3 V3 SE", price: 28, img: "/prizes/creality.jpg", description: "3d printer for rapid prototyping" },
 
   // ===== 30 HOURS =====
   { name: "Flipper Zero", price: 30, img: "/prizes/flipper_zero_img.webp", description: "hardware security hacking tool" },
