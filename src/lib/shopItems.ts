@@ -34,7 +34,7 @@ export const allShopItems: ShopItem[] = [
 
   // ===== 6 HOURS =====
   { name: "BLÅHAJ", price: 8, img: "/prizes/blahaj.jpg", description: "big big big" },
-
+  { name: "BAOFENG UV-9R for 6 hours", price: 6, img: "/prizes/baofengUV9R.jpg", description: "Dual-band handheld radio — UHF/VHF for staying in touch (or just vibing on the airwaves)" },
   // ===== 13 HOURS =====
   { name: "TryHackMe 6 month subscription", price: 13, img: "/prizes/tryHackMe.png", description: "get cracked at cybersec rlly quick here" },
 
